@@ -1,638 +1,1143 @@
 {
   "quizzes": [
     {
-      "title": "Java Programming Model Paper 1",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Introduction to Programming - Midterm Exam",
+      "icon": "./assets/images/icon-programming.svg",
       "questions": [
         {
-          "question": "What is the primary purpose of the 'main' method in a Java program?",
-          "options": ["To initialize variables", "To serve as the entry point of the program", "To handle exceptions", "To perform mathematical calculations"],
-          "answer": "To serve as the entry point of the program"
+          "question": "What is the main function of a computer?",
+          "options": [
+            "Store and process data",
+            "Send emails",
+            "Play music",
+            "Connect to the internet"
+          ],
+          "answer": "Store and process data",
+          "explanation": "A computer's main function is to store and process large amounts of data quickly."
+        },
+        {
+          "question": "Which of the following is NOT a high-level programming language?",
+          "options": [
+            "C++",
+            "Java",
+            "Python",
+            "Assembly"
+          ],
+          "answer": "Assembly",
+          "explanation": "Assembly is a low-level language that is closer to machine code, unlike high-level languages like C++, Java, and Python."
+        },
+        {
+          "question": "Which of the following statements about comments in Java is true?",
+          "options": [
+            "Comments are executed as part of the program.",
+            "Comments are ignored by the compiler.",
+            "Comments slow down the execution of the program.",
+            "Comments must be written in a separate file."
+          ],
+          "answer": "Comments are ignored by the compiler",
+          "explanation": "Comments are used to improve readability and are ignored by the compiler."
+        },
+        {
+          "question": "What is the correct syntax for declaring a variable in Java?",
+          "options": [
+            "int 1number;",
+            "int number;",
+            "int# number;",
+            "number int;"
+          ],
+          "answer": "int number;",
+          "explanation": "In Java, variables are declared with the syntax: data type followed by the variable name."
+        },
+        {
+          "question": "Which of the following is an arithmetic operator in Java?",
+          "options": [
+            "+",
+            "&&",
+            "==",
+            "!"
+          ],
+          "answer": "+",
+          "explanation": "The '+' operator is used for addition in Java."
+        },
+        {
+          "question": "What is a valid variable name in Java?",
+          "options": [
+            "2value",
+            "Tax_Rate",
+            "for",
+            "name@"
+          ],
+          "answer": "Tax_Rate",
+          "explanation": "Variable names can contain letters, numbers, and underscores, but cannot start with a digit or contain special characters."
+        },
+        {
+          "question": "What is the output of the following code: int x = 10; x++; System.out.println(x);?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "answer": "11",
+          "explanation": "The increment operator (++) increases the value of x by 1, so the output is 11."
+        },
+        {
+          "question": "Which of the following operators is used to compare two values?",
+          "options": [
+            "+",
+            "=",
+            "==",
+            "&&"
+          ],
+          "answer": "==",
+          "explanation": "The '==' operator is used to compare two values for equality."
+        },
+        {
+          "question": "Which of the following loops is used when the number of iterations is known?",
+          "options": [
+            "While loop",
+            "Do-while loop",
+            "For loop",
+            "Infinite loop"
+          ],
+          "answer": "For loop",
+          "explanation": "A for loop is used when the number of iterations is known beforehand."
+        },
+        {
+          "question": "What is the correct syntax for an if statement in Java?",
+          "options": [
+            "if x == 10 then { }",
+            "if (x == 10) { }",
+            "if x = 10 { }",
+            "if (x 10) { }"
+          ],
+          "answer": "if (x == 10) { }",
+          "explanation": "In Java, the condition is enclosed in parentheses, and the body of the if statement is within curly braces."
+        },
+        {
+          "question": "Which of the following is a selection control structure in Java?",
+          "options": [
+            "If-else statement",
+            "For loop",
+            "Switch case",
+            "Both If-else and Switch case"
+          ],
+          "answer": "Both If-else and Switch case",
+          "explanation": "Selection control structures in Java include the if-else and switch-case statements."
+        },
+        {
+          "question": "Which operator is used to assign a value to a variable?",
+          "options": [
+            "=",
+            "==",
+            "+=",
+            "*"
+          ],
+          "answer": "=",
+          "explanation": "The assignment operator '=' is used to assign a value to a variable."
+        },
+        {
+          "question": "Which of the following types of loops will always execute the code block at least once?",
+          "options": [
+            "While loop",
+            "For loop",
+            "Do-while loop",
+            "Infinite loop"
+          ],
+          "answer": "Do-while loop",
+          "explanation": "The do-while loop ensures that the code block is executed at least once before checking the condition."
+        },
+        {
+          "question": "What does the 'final' keyword in Java do?",
+          "options": [
+            "Makes a variable unchangeable (constant)",
+            "Defines a new data type",
+            "Ends a loop",
+            "Breaks a switch statement"
+          ],
+          "answer": "Makes a variable unchangeable (constant)",
+          "explanation": "The 'final' keyword is used to declare constants whose values cannot be changed."
+        },
+        {
+          "question": "What will the following code output: int a = 5; int b = 10; System.out.println(a == b);?",
+          "options": [
+            "true",
+            "false",
+            "5",
+            "10"
+          ],
+          "answer": "false",
+          "explanation": "The '==' operator checks for equality. Since 5 is not equal to 10, the result is false."
+        },
+        {
+          "question": "Which loop will execute until a condition becomes false?",
+          "options": [
+            "For loop",
+            "While loop",
+            "Do-while loop",
+            "Switch"
+          ],
+          "answer": "While loop",
+          "explanation": "A while loop continues to execute as long as the condition is true."
+        },
+        {
+          "question": "Which data type is used to store a single character in Java?",
+          "options": [
+            "int",
+            "double",
+            "char",
+            "String"
+          ],
+          "answer": "char",
+          "explanation": "The 'char' data type is used to store single characters."
+        },
+        {
+          "question": "Which keyword is used to define a class in Java?",
+          "options": [
+            "public",
+            "class",
+            "void",
+            "return"
+          ],
+          "answer": "class",
+          "explanation": "The 'class' keyword is used to define a class in Java."
+        },
+        {
+          "question": "Which of the following is NOT a repetition statement in Java?",
+          "options": [
+            "For loop",
+            "While loop",
+            "Do-while loop",
+            "Switch statement"
+          ],
+          "answer": "Switch statement",
+          "explanation": "The switch statement is a selection control structure, not a loop."
+        },
+        {
+          "question": "Which operator is used to concatenate two strings in Java?",
+          "options": [
+            "+",
+            "*",
+            "&",
+            "=="
+          ],
+          "answer": "+",
+          "explanation": "The '+' operator is used to concatenate strings in Java."
+        },
+        {
+          "question": "What will be the output of the following code: System.out.println(5 + \"5\");?",
+          "options": [
+            "10",
+            "55",
+            "Error",
+            "5"
+          ],
+          "answer": "55",
+          "explanation": "The '+' operator concatenates a string and a number, so the result is '55'."
+        },
+        {
+          "question": "Which statement is used to terminate a loop early?",
+          "options": [
+            "break",
+            "continue",
+            "exit",
+            "stop"
+          ],
+          "answer": "break",
+          "explanation": "The 'break' statement is used to exit a loop prematurely."
+        },
+        {
+          "question": "What is the purpose of the 'else' clause in an if-else statement?",
+          "options": [
+            "To run code when the condition is true",
+            "To run code when the condition is false",
+            "To end the program",
+            "To create an infinite loop"
+          ],
+          "answer": "To run code when the condition is false",
+          "explanation": "The 'else' clause is used to execute a block of code when the 'if' condition evaluates to false."
+        },
+        {
+          "question": "Which of the following is a valid boolean value in Java?",
+          "options": [
+            "yes",
+            "1",
+            "true",
+            "on"
+          ],
+          "answer": "true",
+          "explanation": "In Java, boolean values are 'true' and 'false'."
+        },
+        {
+          "question": "Which loop is used for counter-controlled repetition?",
+          "options": [
+            "For loop",
+            "While loop",
+            "Do-while loop",
+            "Switch"
+          ],
+          "answer": "For loop",
+          "explanation": "The for loop is typically used for counter-controlled repetition where the number of iterations is known."
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Programming - Lecture 1",
+      "icon": "./assets/images/icon-programming.svg",
+      "questions": [
+        {
+          "question": "What is a computer?",
+          "options": [
+            "A machine that stores and processes data",
+            "A device for browsing the internet",
+            "A machine that only plays video games",
+            "A device for sending emails"
+          ],
+          "answer": "A machine that stores and processes data",
+          "explanation": "A computer is primarily designed to store and process data."
+        },
+        {
+          "question": "What is software?",
+          "options": [
+            "Hardware components",
+            "A set of instructions used to operate a computer",
+            "Physical parts of a computer",
+            "The screen of a computer"
+          ],
+          "answer": "A set of instructions used to operate a computer",
+          "explanation": "Software refers to the instructions that tell a computer what to do."
+        },
+        {
+          "question": "What is programming?",
+          "options": [
+            "Designing hardware components",
+            "Writing software to solve problems",
+            "Using a computer to browse the web",
+            "None of the above"
+          ],
+          "answer": "Writing software to solve problems",
+          "explanation": "Programming is the process of writing instructions for computers to solve problems."
+        },
+        {
+          "question": "What is a programming language?",
+          "options": [
+            "A set of physical components",
+            "A set of instructions to perform tasks",
+            "A way to speak to computers",
+            "A language used to communicate with people"
+          ],
+          "answer": "A set of instructions to perform tasks",
+          "explanation": "Programming languages are sets of instructions used to perform specific tasks."
+        },
+        {
+          "question": "Which of the following is NOT a high-level language?",
+          "options": [
+            "Java",
+            "C",
+            "Python",
+            "Assembly"
+          ],
+          "answer": "Assembly",
+          "explanation": "Assembly is a low-level language, closer to machine code."
+        },
+        {
+          "question": "What is machine language?",
+          "options": [
+            "Language spoken by computers",
+            "1s and 0s that computers understand",
+            "English-like language for coding",
+            "A translator for computers"
+          ],
+          "answer": "1s and 0s that computers understand",
+          "explanation": "Machine language is the binary language consisting of 1s and 0s."
+        },
+        {
+          "question": "Which step comes first in software development?",
+          "options": [
+            "Implementation",
+            "Testing",
+            "Design",
+            "Analysis"
+          ],
+          "answer": "Analysis",
+          "explanation": "The first step is analyzing and defining the problem."
+        },
+        {
+          "question": "What is an algorithm?",
+          "options": [
+            "A step-by-step solution to a problem",
+            "A type of programming language",
+            "A hardware component",
+            "A computer"
+          ],
+          "answer": "A step-by-step solution to a problem",
+          "explanation": "An algorithm is a precise set of steps to solve a problem."
+        },
+        {
+          "question": "What is pseudocode?",
+          "options": [
+            "A programming language",
+            "An informal way of writing algorithms",
+            "Machine code",
+            "A method of testing"
+          ],
+          "answer": "An informal way of writing algorithms",
+          "explanation": "Pseudocode is a human-readable way to describe an algorithm."
+        },
+        {
+          "question": "Which of the following is NOT part of the software development lifecycle?",
+          "options": [
+            "Analysis",
+            "Implementation",
+            "Compilation",
+            "Testing"
+          ],
+          "answer": "Compilation",
+          "explanation": "Compilation is a step in converting code but not considered part of the development lifecycle."
+        },
+        {
+          "question": "What does a compiler do?",
+          "options": [
+            "Runs programs",
+            "Translates source code into machine code",
+            "Edits programs",
+            "Creates flowcharts"
+          ],
+          "answer": "Translates source code into machine code",
+          "explanation": "A compiler converts high-level programming code into machine language."
+        },
+        {
+          "question": "What is the output of a Java compiler?",
+          "options": [
+            "Assembly code",
+            "Bytecode",
+            "Machine language",
+            "Pseudocode"
+          ],
+          "answer": "Bytecode",
+          "explanation": "Java compilers produce bytecode that is interpreted by the Java Virtual Machine (JVM)."
+        },
+        {
+          "question": "What is the Java Virtual Machine (JVM)?",
+          "options": [
+            "A computer",
+            "A program that interprets Java bytecode",
+            "A hardware component",
+            "An algorithm"
+          ],
+          "answer": "A program that interprets Java bytecode",
+          "explanation": "The JVM interprets Java bytecode and allows it to run on any platform."
+        },
+        {
+          "question": "Which of the following is a valid Java class name?",
+          "options": [
+            "1Class",
+            "_Class",
+            "class#",
+            "void"
+          ],
+          "answer": "_Class",
+          "explanation": "Java class names cannot start with a number, contain special characters like #, or use keywords like 'void'."
+        },
+        {
+          "question": "What is the correct command to compile a Java program?",
+          "options": [
+            "javac filename.java",
+            "java filename",
+            "compile filename",
+            "run filename.java"
+          ],
+          "answer": "javac filename.java",
+          "explanation": "The 'javac' command is used to compile Java programs."
+        }
+      ]
+    },
+    {
+      "title": "Introduction to Programming - Lecture 2",
+      "icon": "./assets/images/icon-programming.svg",
+      "questions": [
+        {
+          "question": "What is a variable?",
+          "options": [
+            "A storage location in memory",
+            "A programming language",
+            "A method to print output",
+            "A mathematical operator"
+          ],
+          "answer": "A storage location in memory",
+          "explanation": "A variable stores values in memory during program execution."
+        },
+        {
+          "question": "Which of the following is a valid variable declaration in Java?",
+          "options": [
+            "int 1value;",
+            "int value1;",
+            "int value@;",
+            "int value%"
+          ],
+          "answer": "int value1;",
+          "explanation": "Variable names must not start with a digit or contain special characters."
+        },
+        {
+          "question": "What data type would you use to store a single character in Java?",
+          "options": [
+            "int",
+            "char",
+            "double",
+            "String"
+          ],
+          "answer": "char",
+          "explanation": "The 'char' data type is used to store single characters."
+        },
+        {
+          "question": "Which of the following is NOT a primitive data type in Java?",
+          "options": [
+            "int",
+            "boolean",
+            "float",
+            "String"
+          ],
+          "answer": "String",
+          "explanation": "String is not a primitive data type, it is a class in Java."
+        },
+        {
+          "question": "What is the assignment operator in Java?",
+          "options": [
+            "==",
+            "=",
+            "*",
+            "/"
+          ],
+          "answer": "=",
+          "explanation": "The '=' operator is used to assign values to variables."
+        },
+        {
+          "question": "Which of the following is an arithmetic operator in Java?",
+          "options": [
+            "&&",
+            "||",
+            "+",
+            "=="
+          ],
+          "answer": "+",
+          "explanation": "The '+' operator is used for addition in Java."
+        },
+        {
+          "question": "Which of the following operators is used to compare two values in Java?",
+          "options": [
+            "=",
+            "==",
+            "&&",
+            "+"
+          ],
+          "answer": "==",
+          "explanation": "The '==' operator is used to compare two values for equality."
+        },
+        {
+          "question": "What is the output of the following code: int x = 10; x++; System.out.println(x);?",
+          "options": [
+            "10",
+            "9",
+            "11",
+            "12"
+          ],
+          "answer": "11",
+          "explanation": "The increment operator (++) increases the value of x by 1, so the output is 11."
+        },
+        {
+          "question": "What is the output of the following code: System.out.println(5 + \"5\");?",
+          "options": [
+            "10",
+            "55",
+            "Error",
+            "5"
+          ],
+          "answer": "55",
+          "explanation": "The '+' operator concatenates a string and a number, so the result is '55'."
+        },
+        {
+          "question": "What is the correct syntax to declare a floating-point number in Java?",
+          "options": [
+            "float number = 5.0;",
+            "float number = '5';",
+            "float number = true;",
+            "float number = 5;"
+          ],
+          "answer": "float number = 5.0;",
+          "explanation": "A floating-point number must have a decimal point."
+        },
+        {
+          "question": "Which operator is used to calculate the remainder in Java?",
+          "options": [
+            "/",
+            "*",
+            "%",
+            "-"
+          ],
+          "answer": "%",
+          "explanation": "The '%' operator is used to find the remainder of a division operation."
+        },
+        {
+          "question": "What is the result of the following expression: 10 % 3?",
+          "options": [
+            "3",
+            "1",
+            "10",
+            "0"
+          ],
+          "answer": "1",
+          "explanation": "The remainder when 10 is divided by 3 is 1."
+        },
+        {
+          "question": "Which operator is used to increment a value by 1?",
+          "options": [
+            "++",
+            "--",
+            "+=",
+            "=="
+          ],
+          "answer": "++",
+          "explanation": "The increment operator '++' increases a value by 1."
+        },
+        {
+          "question": "What does the following code do: int a = 10; a += 5;?",
+          "options": [
+            "Sets a to 5",
+            "Increases a by 5",
+            "Multiplies a by 5",
+            "Divides a by 5"
+          ],
+          "answer": "Increases a by 5",
+          "explanation": "The '+=' operator increases the value of 'a' by 5."
+        },
+        {
+          "question": "Which of the following is NOT a valid variable name?",
+          "options": [
+            "_value",
+            "value$",
+            "2value",
+            "value1"
+          ],
+          "answer": "2value",
+          "explanation": "Variable names cannot start with a number."
+        }
+      ]
+    },
+    {
+      "title": "Java Programming - Midterm Exam",
+      "icon": "./assets/images/icon-programming.svg",
+      "questions": [
+        {
+          "question": "What is the output of the following code?\n\n```java\nint x = 5;\nint y = x++;\nSystem.out.println(y);\n```",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "Error"
+          ],
+          "answer": "5",
+          "explanation": "The postfix increment operator (x++) returns the value of x before incrementing."
+        },
+        {
+          "question": "Which of the following data types can store decimal values?",
+          "options": [
+            "int",
+            "double",
+            "char",
+            "boolean"
+          ],
+          "answer": "double",
+          "explanation": "The 'double' data type is used for floating-point numbers (decimal values)."
+        },
+        {
+          "question": "What is the output of the following code?\n\n```java\nint sum = 10;\nif (sum >= 10) sum += 5;\nSystem.out.println(sum);\n```",
+          "options": [
+            "10",
+            "15",
+            "5",
+            "20"
+          ],
+          "answer": "15",
+          "explanation": "The condition is true, so 5 is added to 'sum', resulting in 15."
+        },
+        {
+          "question": "What does the following code output?\n\n```java\nSystem.out.println(10 % 4);\n```",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "answer": "2",
+          "explanation": "The modulus operator (%) returns the remainder of the division, so 10 % 4 equals 2."
         },
         {
           "question": "Which of the following is a valid Java variable name?",
-          "options": ["1stVariable", "first Variable", "first_variable", "first-variable"],
-          "answer": "first_variable"
+          "options": [
+            "1value",
+            "total_value",
+            "for",
+            "total-value"
+          ],
+          "answer": "total_value",
+          "explanation": "Variable names cannot start with a number or contain special characters like '-'."
         },
         {
-          "question": "Which data type would you use to store a character value?",
-          "options": ["int", "String", "char", "boolean"],
-          "answer": "char"
+          "question": "What will the following code output?\n\n```java\nint x = 100;\nint y = x / 10;\nSystem.out.println(y);\n```",
+          "options": [
+            "100",
+            "10",
+            "1",
+            "0"
+          ],
+          "answer": "10",
+          "explanation": "The division operator (/) divides 100 by 10, resulting in 10."
         },
         {
-          "question": "How do you declare an integer variable in Java?",
-          "options": ["int x;", "integer x;", "num x;", "int: x;"],
-          "answer": "int x;"
+          "question": "What is the correct syntax to declare a boolean variable in Java?",
+          "options": [
+            "boolean isTrue = true;",
+            "boolean isTrue == true;",
+            "bool isTrue = 1;",
+            "bool isTrue == 1;"
+          ],
+          "answer": "boolean isTrue = true;",
+          "explanation": "The correct syntax in Java for declaring a boolean variable is 'boolean variableName = true/false;'."
         },
         {
-          "question": "Which of the following operators is used for addition in Java?",
-          "options": ["-", "+", "*", "/"],
-          "answer": "+"
+          "question": "What is the output of the following code?\n\n```java\nint a = 5, b = 10;\nSystem.out.println(a + b);\n```",
+          "options": [
+            "10",
+            "15",
+            "5",
+            "Error"
+          ],
+          "answer": "15",
+          "explanation": "The expression adds 'a' and 'b', which results in 15."
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(10 + 5);`?",
-          "options": ["10", "5", "15", "105"],
-          "answer": "15"
+          "question": "What is the correct way to declare a constant variable in Java?",
+          "options": [
+            "const int VALUE = 10;",
+            "int VALUE = 10;",
+            "final int VALUE = 10;",
+            "int const VALUE = 10;"
+          ],
+          "answer": "final int VALUE = 10;",
+          "explanation": "The 'final' keyword is used to declare constants in Java."
         },
         {
-          "question": "Which method is used to print a message to the console in Java?",
-          "options": ["System.print()", "print()", "System.out.println()", "println()"],
-          "answer": "System.out.println()"
+          "question": "What is the output of the following code?\n\n```java\nint i = 5;\nSystem.out.println(++i);\n```",
+          "options": [
+            "5",
+            "6",
+            "Error",
+            "7"
+          ],
+          "answer": "6",
+          "explanation": "The prefix increment (++i) increments 'i' before printing its value, resulting in 6."
         },
         {
-          "question": "What is the size of a boolean data type in Java?",
-          "options": ["8 bits", "16 bits", "32 bits", "1 bit"],
-          "answer": "1 bit"
+          "question": "Which of the following is a selection control structure in Java?",
+          "options": [
+            "for loop",
+            "if-else",
+            "switch",
+            "Both if-else and switch"
+          ],
+          "answer": "Both if-else and switch",
+          "explanation": "Selection control structures include 'if-else' and 'switch' statements."
         },
         {
-          "question": "Which keyword is used to define a constant variable in Java?",
-          "options": ["static", "const", "final", "immutable"],
-          "answer": "final"
+          "question": "What will be the output of the following code?\n\n```java\nint x = 5;\nif (x > 3) {\n  System.out.println(\"x is greater than 3\");\n}\n```",
+          "options": [
+            "x is greater than 3",
+            "x is less than 3",
+            "Error",
+            "Nothing"
+          ],
+          "answer": "x is greater than 3",
+          "explanation": "Since 'x' is 5, the condition 'x > 3' is true, so the message is printed."
         },
         {
-          "question": "What is the correct way to initialize a variable of type String?",
-          "options": ["String name = 'John';", "String name = John;", "String name = \"John\";", "String name = `John`;"],
-          "answer": "String name = \"John\";"
+          "question": "What will be the output of the following code?\n\n```java\nint x = 10;\nint y = 20;\nSystem.out.println(x == y);\n```",
+          "options": [
+            "true",
+            "false",
+            "Error",
+            "10"
+          ],
+          "answer": "false",
+          "explanation": "The '==' operator checks if 'x' and 'y' are equal. Since they are not, the output is 'false'."
         },
         {
-          "question": "Which of these is a primitive data type in Java?",
-          "options": ["String", "int", "Object", "ArrayList"],
-          "answer": "int"
+          "question": "Which of the following keywords is used to start a loop in Java?",
+          "options": [
+            "loop",
+            "while",
+            "repeat",
+            "exit"
+          ],
+          "answer": "while",
+          "explanation": "'while' is a keyword used to start a loop in Java."
         },
         {
-          "question": "What does IDE stand for in the context of Java programming?",
-          "options": ["Integrated Development Environment", "International Development Environment", "Integrated Design Environment", "Internal Development Environment"],
-          "answer": "Integrated Development Environment"
+          "question": "Which of the following is a correct switch case block?",
+          "options": [
+            "switch (value) { case: 1 System.out.println(\"One\"); }",
+            "switch (value) { case 1: System.out.println(\"One\"); break; }",
+            "switch (value) { case (1): System.out.println(\"One\"); break; }",
+            "switch value { case 1: System.out.println(\"One\"); break; }"
+          ],
+          "answer": "switch (value) { case 1: System.out.println(\"One\"); break; }",
+          "explanation": "The correct syntax for a switch-case block uses 'case value: ... break;' within the block."
         },
         {
-          "question": "Which of the following is the correct syntax to create a single-line comment in Java?",
-          "options": ["/* comment */", "// comment", "<!-- comment -->", "# comment"],
-          "answer": "// comment"
+          "question": "What is the output of the following code?\n\n```java\nint i = 0;\nwhile (i < 3) {\n  System.out.println(i);\n  i++;\n}\n```",
+          "options": [
+            "0 1 2",
+            "1 2 3",
+            "0 1 2 3",
+            "0 0 0"
+          ],
+          "answer": "0 1 2",
+          "explanation": "The loop prints the values of 'i' from 0 to 2."
         },
         {
-          "question": "Which operator is used to compare two values for equality in Java?",
-          "options": ["==", "=", "equals()", "!"],
-          "answer": "=="
+          "question": "What is the correct syntax to create a for loop in Java?",
+          "options": [
+            "for i = 0 to 10",
+            "for (int i = 0; i < 10; i++)",
+            "for (int i: range(10))",
+            "for i in range(10)"
+          ],
+          "answer": "for (int i = 0; i < 10; i++)",
+          "explanation": "The correct syntax for a 'for' loop in Java is 'for (initialization; condition; increment)'."
         },
         {
-          "question": "What will be the output of the following code: `System.out.println(5 / 2);`?",
-          "options": ["2", "2.5", "3", "2.0"],
-          "answer": "2"
+          "question": "What will be the output of the following code?\n\n```java\nint x = 5;\nint y = 6;\nSystem.out.println(x > y);\n```",
+          "options": [
+            "true",
+            "false",
+            "Error",
+            "5"
+          ],
+          "answer": "false",
+          "explanation": "The condition 'x > y' is false since 5 is less than 6."
         },
         {
-          "question": "How do you start a block of code that will run if a condition is true in Java?",
-          "options": ["if(condition) {", "while(condition) {", "for(condition) {", "do { condition }"],
-          "answer": "if(condition) {"
+          "question": "Which of the following statements correctly assigns a value to a variable in Java?",
+          "options": [
+            "int x == 5;",
+            "x == 5;",
+            "int x = 5;",
+            "5 == int x;"
+          ],
+          "answer": "int x = 5;",
+          "explanation": "The correct syntax for variable assignment is 'dataType variableName = value;'."
         },
         {
-          "question": "Which of these is not a valid data type in Java?",
-          "options": ["double", "float", "real", "char"],
-          "answer": "real"
+          "question": "Which of the following is a loop structure in Java?",
+          "options": [
+            "if-else",
+            "while",
+            "case",
+            "switch"
+          ],
+          "answer": "while",
+          "explanation": "'while' is a loop structure in Java that executes as long as the condition is true."
         },
         {
-          "question": "Which of the following is used to create a loop in Java?",
-          "options": ["if", "while", "switch", "case"],
-          "answer": "while"
+          "question": "Which of the following loops will always execute at least once?",
+          "options": [
+            "while loop",
+            "do-while loop",
+            "for loop",
+            "infinite loop"
+          ],
+          "answer": "do-while loop",
+          "explanation": "The 'do-while' loop guarantees at least one execution before checking the condition."
         },
         {
-          "question": "Which keyword is used to define a subclass in Java?",
-          "options": ["subclass", "inherits", "extends", "super"],
-          "answer": "extends"
+          "question": "Which operator is used to concatenate strings in Java?",
+          "options": [
+            "+",
+            "*",
+            "&",
+            "%"
+          ],
+          "answer": "+",
+          "explanation": "The '+' operator is used to concatenate (join) two strings in Java."
         },
         {
-          "question": "What is the default value of a boolean variable in Java?",
-          "options": ["true", "false", "0", "null"],
-          "answer": "false"
+          "question": "What will the following code output?\n\n```java\nint a = 10;\nint b = 20;\nSystem.out.println(a + b);\n```",
+          "options": [
+            "10",
+            "20",
+            "30",
+            "40"
+          ],
+          "answer": "30",
+          "explanation": "The sum of 'a' and 'b' is 30, which is printed."
+        },
+        {
+          "question": "Which of the following keywords is used to declare a class in Java?",
+          "options": [
+            "void",
+            "int",
+            "class",
+            "public"
+          ],
+          "answer": "class",
+          "explanation": "The 'class' keyword is used to declare a class in Java."
+        },
+        {
+          "question": "What is the output of the following code?\n\n```java\nint i = 10;\nSystem.out.println(i == 10);\n```",
+          "options": [
+            "true",
+            "false",
+            "Error",
+            "10"
+          ],
+          "answer": "true",
+          "explanation": "The '==' operator checks for equality, and since 'i' is 10, the output is 'true'."
+        },
+        {
+          "question": "What will be the output of the following code?\n\n```java\nint x = 5;\nswitch (x) {\n  case 5: System.out.println(\"Five\");\n  case 6: System.out.println(\"Six\");\n}\n```",
+          "options": [
+            "Five",
+            "Five Six",
+            "Error",
+            "None"
+          ],
+          "answer": "Five Six",
+          "explanation": "Without a 'break' statement, the switch continues to the next case after finding a match."
+        },
+        {
+          "question": "Which of the following data types is used to store whole numbers in Java?",
+          "options": [
+            "int",
+            "float",
+            "char",
+            "boolean"
+          ],
+          "answer": "int",
+          "explanation": "The 'int' data type is used to store whole numbers in Java."
+        },
+        {
+          "question": "Which operator is used to check if two values are not equal in Java?",
+          "options": [
+            "!=",
+            "==",
+            "&&",
+            "%="
+          ],
+          "answer": "!=",
+          "explanation": "The '!=' operator checks if two values are not equal."
+        },
+        {
+          "question": "What is the output of the following code?\n\n```java\nSystem.out.println(2 + \"2\");\n```",
+          "options": [
+            "22",
+            "4",
+            "Error",
+            "None"
+          ],
+          "answer": "22",
+          "explanation": "The '+' operator concatenates the integer 2 with the string \"2\", resulting in \"22\"."
+        },
+        {
+          "question": "What will the following code output?\n\n```java\nint x = 0;\nif (x != 0) {\n  System.out.println(\"Non-zero\");\n} else {\n  System.out.println(\"Zero\");\n}\n```",
+          "options": [
+            "Zero",
+            "Non-zero",
+            "Error",
+            "None"
+          ],
+          "answer": "Zero",
+          "explanation": "Since 'x' is 0, the 'else' branch is executed, printing 'Zero'."
+        },
+        {
+          "question": "Which of the following is a primitive data type in Java?",
+          "options": [
+            "String",
+            "ArrayList",
+            "int",
+            "Scanner"
+          ],
+          "answer": "int",
+          "explanation": "Primitive data types in Java include 'int', 'float', 'double', and 'boolean'."
         }
       ]
     },
     {
-      "title": "Java Programming Model Paper 2",
-      "icon": "./assets/images/icon-java.svg",
+      "title": "Control Structures in Java - Lecture 3",
+      "icon": "./assets/images/icon-control-structures.svg",
       "questions": [
         {
-          "question": "Which of the following is the correct way to declare a float variable in Java?",
-          "options": ["float f = 1.0;", "float f = 1.0f;", "float f = '1.0';", "float f = 1;"],
-          "answer": "float f = 1.0f;"
-        },
-        {
-          "question": "Which of these is a reserved keyword in Java?",
-          "options": ["include", "try", "define", "scan"],
-          "answer": "try"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(9 % 4);`?",
-          "options": ["1", "2", "3", "4"],
-          "answer": "1"
-        },
-        {
-          "question": "Which of the following is an example of a ternary operator in Java?",
-          "options": ["if-else", "for", "?:", "switch-case"],
-          "answer": "?:"
-        },
-        {
-          "question": "Which statement is used to terminate a loop in Java?",
-          "options": ["exit", "break", "continue", "stop"],
-          "answer": "break"
-        },
-        {
-          "question": "What does the following code print? `String str = \"Java\"; System.out.println(str.length());`",
-          "options": ["4", "5", "6", "3"],
-          "answer": "4"
-        },
-        {
-          "question": "Which keyword is used to handle exceptions in Java?",
-          "options": ["handle", "catch", "throw", "try"],
-          "answer": "catch"
-        },
-        {
-          "question": "Which of these loops is guaranteed to run at least once?",
-          "options": ["for", "while", "do-while", "foreach"],
-          "answer": "do-while"
-        },
-        {
-          "question": "Which class is the parent class of all classes in Java?",
-          "options": ["System", "String", "Object", "Main"],
-          "answer": "Object"
-        },
-        {
-          "question": "Which of the following is a feature of the Java programming language?",
-          "options": ["Platform-dependent", "Single-threaded", "Garbage collection", "Multiple inheritance"],
-          "answer": "Garbage collection"
-        },
-        {
-          "question": "Which method can be used to find the largest number in a set of numbers in Java?",
-          "options": ["Math.max()", "Math.min()", "Math.abs()", "Math.sqrt()"],
-          "answer": "Math.max()"
-        },
-        {
-          "question": "Which of these is a valid way to create an array of integers in Java?",
-          "options": ["int[] arr = new int[5];", "int arr = new int[5];", "int[5] arr;", "int arr[5];"],
-          "answer": "int[] arr = new int[5];"
-        },
-        {
-          "question": "Which keyword is used to define a package in Java?",
-          "options": ["define", "package", "include", "namespace"],
-          "answer": "package"
-        },
-        {
-          "question": "What will be the output of the following code? `System.out.println(\"Hello\" + \" World\");`",
-          "options": ["Hello World", "HelloWorld", "Hello+World", "Hello + World"],
-          "answer": "Hello World"
-        },
-        {
-          "question": "Which of the following is not a valid Java operator?",
-          "options": ["&&", "||", "&|", "!="],
-          "answer": "&|"
-        },
-        {
-          "question": "Which method is used to convert a string to an integer in Java?",
-          "options": ["Integer.parseInt()", "String.toInt()", "toString()", "int.valueOf()"],
-          "answer": "Integer.parseInt()"
-        },
-        {
-          "question": "What is the result of `true && false` in Java?",
-          "options": ["true", "false", "null", "0"],
-          "answer": "false"
-        },
-        {
-          "question": "Which of the following data types is used to store decimal numbers in Java?",
-          "options": ["int", "double", "char", "boolean"],
-          "answer": "double"
-        },
-        {
-          "question": "Which method is used to get the current date and time in Java?",
-          "options": ["Date.now()", "LocalDateTime.now()", "System.currentTime()", "Time.now()"],
-          "answer": "LocalDateTime.now()"
-        },
-        {
-          "question": "Which keyword is used to create an interface in Java?",
-          "options": ["class", "interface", "implements", "extends"],
-          "answer": "interface"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Model Paper 3",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "Which of the following statements is used to create a new object in Java?",
-          "options": ["create Object()", "new Object()", "Object.new()", "new()"],
-          "answer": "new Object()"
-        },
-        {
-          "question": "Which keyword is used to refer to the immediate parent class object?",
-          "options": ["super", "this", "parent", "base"],
-          "answer": "super"
-        },
-        {
-          "question": "Which of the following is not a valid method of the String class in Java?",
-          "options": ["toLowerCase()", "toUpperCase()", "reverse()", "charAt()"],
-          "answer": "reverse()"
-        },
-        {
-          "question": "Which of the following access specifiers restricts access to the members of a class from any class outside the package?",
-          "options": ["private", "protected", "public", "default"],
-          "answer": "private"
-        },
-        {
-          "question": "Which method is used to get the length of an array in Java?",
-          "options": ["length()", "size()", "getLength()", "arraySize()"],
-          "answer": "length"
-        },
-        {
-          "question": "Which of the following is a valid syntax to call a constructor of the parent class?",
-          "options": ["parent()", "super()", "this()", "base()"],
-          "answer": "super()"
-        },
-        {
-          "question": "Which keyword is used to create a class in Java?",
-          "options": ["new", "create", "class", "define"],
-          "answer": "class"
-        },
-        {
-          "question": "Which operator is used to access the members of an object?",
-          "options": [".", "::", "->", "."],
-          "answer": "."
-        },
-        {
-          "question": "What is the output of `System.out.println(Math.pow(2, 3));`?",
-          "options": ["6", "8", "9", "4"],
-          "answer": "8"
-        },
-        {
-          "question": "Which of these is a correct way to handle multiple exceptions in Java?",
-          "options": ["catch (Exception1, Exception2)", "catch (Exception1 | Exception2)", "catch (Exception1 & Exception2)", "catch {Exception1, Exception2}"],
-          "answer": "catch (Exception1 | Exception2)"
-        },
-        {
-          "question": "Which keyword is used to stop the execution of a method in Java?",
-          "options": ["return", "break", "continue", "stop"],
-          "answer": "return"
-        },
-        {
-          "question": "Which keyword is used to inherit a class in Java?",
-          "options": ["implements", "inherits", "extends", "follows"],
-          "answer": "extends"
-        },
-        {
-          "question": "Which of the following is true about an abstract class in Java?",
-          "options": ["It cannot have a constructor", "It can have both abstract and non-abstract methods", "It can be instantiated", "It must have at least one abstract method"],
-          "answer": "It can have both abstract and non-abstract methods"
-        },
-        {
-          "question": "What will be the output of the following code: `System.out.println(Math.min(5, 10));`?",
-          "options": ["5", "10", "0", "15"],
-          "answer": "5"
-        },
-        {
-          "question": "Which method is used to convert a string to an array of characters?",
-          "options": ["toCharArray()", "charArray()", "getChars()", "split()"],
-          "answer": "toCharArray()"
-        },
-        {
-          "question": "Which of the following is used to create a thread in Java?",
-          "options": ["Runnable interface", "Thread class", "Both A and B", "None of the above"],
-          "answer": "Both A and B"
-        },
-        {
-          "question": "Which keyword is used to throw an exception in Java?",
-          "options": ["throw", "throws", "thrown", "catch"],
-          "answer": "throw"
-        },
-        {
-          "question": "Which method is used to check if two strings are equal, ignoring case considerations?",
-          "options": ["equalsIgnoreCase()", "compareToIgnoreCase()", "equals()", "compareTo()"],
-          "answer": "equalsIgnoreCase()"
-        },
-        {
-          "question": "What is the return type of the 'hashCode()' method in Java?",
-          "options": ["int", "long", "short", "byte"],
-          "answer": "int"
-        },
-        {
-          "question": "Which of these is a method of the Integer class?",
-          "options": ["parseInt()", "toInteger()", "intValue()", "All of the above"],
-          "answer": "All of the above"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Model Paper 4",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "What is the purpose of the `this` keyword in Java?",
-          "options": ["To refer to the current object", "To refer to the superclass", "To refer to a static method", "To create a new object"],
-          "answer": "To refer to the current object"
-        },
-        {
-          "question": "Which of the following is not a Java loop construct?",
-          "options": ["for", "while", "foreach", "do-while"],
-          "answer": "foreach"
-        },
-        {
-          "question": "Which exception is thrown when a file is not found in Java?",
-          "options": ["FileNotFoundException", "IOException", "RuntimeException", "FileException"],
-          "answer": "FileNotFoundException"
-        },
-        {
-          "question": "Which of these methods is used to calculate the absolute value of a number in Java?",
-          "options": ["Math.abs()", "Math.absolute()", "Math.ceil()", "Math.floor()"],
-          "answer": "Math.abs()"
-        },
-        {
-          "question": "Which of the following is a feature of the Java programming language?",
-          "options": ["Manual memory management", "Automatic garbage collection", "Multiple inheritance", "Platform-dependent"],
-          "answer": "Automatic garbage collection"
-        },
-        {
-          "question": "Which of the following is not a valid access modifier in Java?",
-          "options": ["public", "private", "protected", "friendly"],
-          "answer": "friendly"
-        },
-        {
-          "question": "What will be the output of the following code? `System.out.println(\"Java\".substring(1, 3));`",
-          "options": ["Ja", "Jav", "av", "ava"],
-          "answer": "av"
-        },
-        {
-          "question": "Which of the following is used to read input from the user in Java?",
-          "options": ["Scanner class", "InputStream class", "FileReader class", "Buffer class"],
-          "answer": "Scanner class"
-        },
-        {
-          "question": "Which of these is not a keyword in Java?",
-          "options": ["interface", "goto", "constant", "synchronized"],
-          "answer": "constant"
-        },
-        {
-          "question": "Which of these methods is used to find the length of a string in Java?",
-          "options": ["length()", "size()", "getLength()", "count()"],
-          "answer": "length()"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(10 > 5 ? \"True\" : \"False\");`",
-          "options": ["True", "False", "Error", "0"],
-          "answer": "True"
-        },
-        {
-          "question": "Which keyword is used to define a class that cannot be extended?",
-          "options": ["final", "static", "abstract", "constant"],
-          "answer": "final"
-        },
-        {
-          "question": "Which of these is not a valid Java data type?",
-          "options": ["char", "int", "double", "number"],
-          "answer": "number"
-        },
-        {
-          "question": "What is the output of the following code? `System.out.println(3 * 2 + 1);`",
-          "options": ["5", "6", "7", "9"],
-          "answer": "7"
-        },
-        {
-          "question": "Which of these is not a method of the java.util.ArrayList class?",
-          "options": ["add()", "remove()", "get()", "push()"],
-          "answer": "push()"
-        },
-        {
-          "question": "Which of these keywords is used to create an interface in Java?",
-          "options": ["interface", "class", "implements", "extends"],
-          "answer": "interface"
-        },
-        {
-          "question": "What is the result of `System.out.println(10 < 20 && 5 > 3);`?",
-          "options": ["true", "false", "null", "Error"],
-          "answer": "true"
-        },
-        {
-          "question": "Which of the following methods is used to find the square root of a number in Java?",
-          "options": ["Math.sqrt()", "Math.square()", "Math.root()", "Math.pow()"],
-          "answer": "Math.sqrt()"
-        },
-        {
-          "question": "Which of these is a valid way to start a comment in Java?",
-          "options": ["//", "<!--", "/*", "#"],
-          "answer": "//"
-        },
-        {
-          "question": "Which of these is a valid Java array declaration?",
-          "options": ["int[] arr;", "int arr[];", "int arr = [];", "Both A and B"],
-          "answer": "Both A and B"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Model Paper 5",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "Which of these is a valid way to concatenate strings in Java?",
-          "options": ["String1 + String2", "String1.concat(String2)", "StringBuilder.append()", "All of the above"],
-          "answer": "All of the above"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(5 * 2 / 2);`",
-          "options": ["2.5", "5", "10", "0"],
-          "answer": "5"
-        },
-        {
-          "question": "Which of the following is not a feature of Java?",
-          "options": ["Object-oriented", "Platform-independent", "Supports pointers", "Secure"],
-          "answer": "Supports pointers"
-        },
-        {
-          "question": "Which of these is the correct way to create an object of the class 'Car'?",
-          "options": ["Car myCar = new Car();", "Car myCar;", "myCar = new Car();", "Car() myCar;"],
-          "answer": "Car myCar = new Car();"
-        },
-        {
-          "question": "Which of the following is not a method of the String class in Java?",
-          "options": ["length()", "compareTo()", "toUpperCase()", "toChar()"],
-          "answer": "toChar()"
-        },
-        {
-          "question": "Which keyword is used to define a block of code that will run if no exceptions are thrown?",
-          "options": ["catch", "try", "finally", "default"],
-          "answer": "finally"
-        },
-        {
-          "question": "What is the output of the following code? `System.out.println(\"Hello World\".toUpperCase());`",
-          "options": ["HELLO WORLD", "Hello World", "hello world", "Helloworld"],
-          "answer": "HELLO WORLD"
-        },
-        {
-          "question": "Which of these methods is used to determine if a string starts with a certain prefix?",
-          "options": ["startsWith()", "beginWith()", "hasPrefix()", "starts()"],
-          "answer": "startsWith()"
-        },
-        {
-          "question": "What will be the output of the following code: `System.out.println(10 % 4);`",
-          "options": ["0", "2", "4", "3"],
-          "answer": "2"
-        },
-        {
-          "question": "Which of these keywords is used to define a method that must be implemented by subclasses?",
-          "options": ["abstract", "final", "static", "default"],
-          "answer": "abstract"
-        },
-        {
-          "question": "Which of these is not a Java exception handling keyword?",
-          "options": ["try", "catch", "throw", "handle"],
-          "answer": "handle"
-        },
-        {
-          "question": "Which method is used to stop the execution of a thread?",
-          "options": ["stop()", "terminate()", "exit()", "end()"],
-          "answer": "stop()"
-        },
-        {
-          "question": "Which of these is a method of the Math class in Java?",
-          "options": ["max()", "min()", "pow()", "All of the above"],
-          "answer": "All of the above"
-        },
-        {
-          "question": "Which of the following is true about Java?",
-          "options": ["It is a compiled language", "It is an interpreted language", "It is both compiled and interpreted", "None of the above"],
-          "answer": "It is both compiled and interpreted"
-        },
-        {
-          "question": "Which of the following is not a type of inheritance in Java?",
-          "options": ["Single", "Multilevel", "Hybrid", "Multiple"],
-          "answer": "Multiple"
-        },
-        {
-          "question": "Which of the following methods is used to write to a file in Java?",
-          "options": ["FileWriter.write()", "File.read()", "FileStream()", "FileOpen.write()"],
-          "answer": "FileWriter.write()"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(10 > 5 || 5 > 10);`",
-          "options": ["true", "false", "null", "0"],
-          "answer": "true"
-        },
-        {
-          "question": "Which keyword is used to refer to the superclass of a class?",
-          "options": ["parent", "super", "base", "extends"],
-          "answer": "super"
-        },
-        {
-          "question": "Which of these is not a primitive data type in Java?",
-          "options": ["int", "boolean", "float", "String"],
-          "answer": "String"
-        },
-        {
-          "question": "Which method is used to find the last occurrence of a character in a string?",
-          "options": ["lastIndexOf()", "indexOf()", "findLast()", "charAt()"],
-          "answer": "lastIndexOf()"
-        }
-      ]
-    },
-    {
-      "title": "Java Programming Mid Guess Paper",
-      "icon": "./assets/images/icon-java.svg",
-      "questions": [
-        {
-          "question": "Which keyword is used to define a method that cannot be overridden in Java?",
-          "options": ["final", "static", "private", "protected"],
-          "answer": "final"
-        },
-        {
-          "question": "What is the output of the following code? `System.out.println(10 / 3);`",
-          "options": ["3.33", "3", "4", "0"],
-          "answer": "3"
-        },
-        {
-          "question": "Which of the following is true about a static method?",
-          "options": ["It belongs to the class, not instances", "It can access instance variables directly", "It can be overridden", "It is always public"],
-          "answer": "It belongs to the class, not instances"
-        },
-        {
-          "question": "What is the output of `System.out.println(Math.ceil(4.2));`?",
-          "options": ["4.0", "4", "5.0", "5"],
-          "answer": "5.0"
-        },
-        {
-          "question": "Which of these is a valid declaration of a constructor in Java?",
-          "options": ["void Constructor()", "Constructor()", "new Constructor()", "Constructor.new()"],
-          "answer": "Constructor()"
-        },
-        {
-          "question": "Which of these is the correct way to create a comment in Java?",
-          "options": ["# comment", "// comment", "<!-- comment -->", "/* comment"],
-          "answer": "// comment"
-        },
-        {
-          "question": "Which of the following is true about the `break` statement?",
-          "options": ["It exits the current method", "It exits the current loop", "It stops the entire program", "It skips the current iteration"],
-          "answer": "It exits the current loop"
-        },
-        {
-          "question": "Which of these is a valid identifier in Java?",
-          "options": ["1stVariable", "first_Variable", "first-Variable", "first Variable"],
-          "answer": "first_Variable"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(\"Hello\".charAt(1));`",
-          "options": ["H", "e", "l", "o"],
-          "answer": "e"
-        },
-        {
-          "question": "Which of the following is used to declare a constant in Java?",
-          "options": ["const", "constant", "final", "static"],
-          "answer": "final"
-        },
-        {
-          "question": "Which of the following is not an access specifier in Java?",
-          "options": ["public", "private", "protected", "package"],
-          "answer": "package"
-        },
-        {
-          "question": "What is the output of the following code: `System.out.println(\"Hello\".substring(0, 2));`",
-          "options": ["He", "Hel", "Ho", "H"],
-          "answer": "He"
-        },
-        {
-          "question": "Which of the following is not a valid way to start a comment in Java?",
-          "options": ["//", "/*", "#", "*/"],
-          "answer": "#"
-        },
-        {
-          "question": "Which of these is a valid way to create a new string in Java?",
-          "options": ["String str = new String(\"Hello\");", "String str = String(\"Hello\");", "String str = 'Hello';", "String str = \"Hello\"();"],
-          "answer": "String str = new String(\"Hello\");"
-        },
-        {
-          "question": "Which keyword is used to handle exceptions that are not caught?",
-          "options": ["try", "catch", "finally", "throw"],
-          "answer": "finally"
-        },
-        {
-          "question": "Which of these is not a loop construct in Java?",
-          "options": ["while", "for", "foreach", "do-while"],
-          "answer": "foreach"
-        },
-        {
-          "question": "Which of these methods is used to convert a string to lowercase?",
-          "options": ["toLower()", "lowerCase()", "toLowerCase()", "lower()"],
-          "answer": "toLowerCase()"
-        },
-        {
-          "question": "What is the output of `System.out.println(4 + 5 * 2);`?",
-          "options": ["18", "14", "13", "9"],
-          "answer": "14"
-        },
-        {
-          "question": "Which of the following is a valid declaration of a char array?",
-          "options": ["char[] arr;", "char arr[];", "char arr = [];", "Both A and B"],
-          "answer": "Both A and B"
-        },
-        {
-          "question": "Which of these is not a valid way to initialize an array in Java?",
-          "options": ["int[] arr = new int[5];", "int[] arr = {1, 2, 3};", "int[] arr = new int[5]{1, 2, 3};", "int arr[] = new int[]{1, 2, 3};"],
-          "answer": "int[] arr = new int[5]{1, 2, 3};"
+          "question": "What is the purpose of an 'if-else' statement in Java?",
+          "options": [
+            "To loop through a set of instructions",
+            "To check a condition and execute code accordingly",
+            "To declare variables",
+            "To terminate the program"
+          ],
+          "answer": "To check a condition and execute code accordingly",
+          "explanation": "'if-else' statements allow conditional execution of code blocks."
+        },
+        {
+          "question": "What is the correct syntax for an if statement in Java?",
+          "options": [
+            "if (x = 5) {}",
+            "if x == 5 {}",
+            "if (x == 5) {}",
+            "if (x equals 5) {}"
+          ],
+          "answer": "if (x == 5) {}",
+          "explanation": "In Java, conditions are enclosed in parentheses and use '==' to check equality."
+        },
+        {
+          "question": "What will be the output of the following code?\n\n```java\nint x = 5;\nif (x > 3) {\n  System.out.println(\"x is greater than 3\");\n}\n```",
+          "options": [
+            "x is greater than 3",
+            "Nothing",
+            "x is less than 3",
+            "Error"
+          ],
+          "answer": "x is greater than 3",
+          "explanation": "Since 'x' is 5, the condition 'x > 3' is true."
+        },
+        {
+          "question": "What does the 'else' block in an 'if-else' statement do?",
+          "options": [
+            "Executes if the condition in the 'if' block is true",
+            "Executes if the condition in the 'if' block is false",
+            "Ends the program",
+            "Creates a new variable"
+          ],
+          "answer": "Executes if the condition in the 'if' block is false",
+          "explanation": "The 'else' block is executed when the condition in the 'if' statement is false."
+        },
+        {
+          "question": "What is the output of the following code?\n\n```java\nint a = 10;\nif (a > 5) {\n  a = a + 10;\n} else {\n  a = a - 10;\n}\nSystem.out.println(a);\n```",
+          "options": [
+            "0",
+            "10",
+            "20",
+            "Error"
+          ],
+          "answer": "20",
+          "explanation": "Since 'a > 5' is true, 'a' is incremented by 10, resulting in 20."
+        },
+        {
+          "question": "Which of the following is a loop structure in Java?",
+          "options": [
+            "if-else",
+            "for",
+            "switch",
+            "case"
+          ],
+          "answer": "for",
+          "explanation": "'for' is a loop structure used for iterating over a range of values."
+        },
+        {
+          "question": "Which of the following is true about a 'while' loop in Java?",
+          "options": [
+            "It runs at least once regardless of the condition",
+            "It runs as long as the condition is true",
+            "It runs if the condition is false",
+            "It can only run a fixed number of times"
+          ],
+          "answer": "It runs as long as the condition is true",
+          "explanation": "A 'while' loop continues to execute as long as its condition evaluates to true."
+        },
+        {
+          "question": "What is the purpose of a 'break' statement in a loop?",
+          "options": [
+            "To stop the loop and exit immediately",
+            "To skip the current iteration",
+            "To restart the loop",
+            "To terminate the program"
+          ],
+          "answer": "To stop the loop and exit immediately",
+          "explanation": "The 'break' statement immediately terminates the loop."
+        },
+        {
+          "question": "What is the correct syntax for a 'for' loop in Java?",
+          "options": [
+            "for i = 0; i < 10; i++ {}",
+            "for (int i = 0; i < 10; i++) {}",
+            "loop (int i = 0; i < 10; i++) {}",
+            "while (int i = 0; i < 10; i++) {}"
+          ],
+          "answer": "for (int i = 0; i < 10; i++) {}",
+          "explanation": "The correct syntax for a 'for' loop includes initialization, condition, and increment."
+        },
+        {
+          "question": "What is the output of the following code?\n\n```java\nint i = 0;\nwhile (i < 3) {\n  System.out.println(i);\n  i++;\n}\n```",
+          "options": [
+            "0 1 2",
+            "1 2 3",
+            "0 1 2 3",
+            "0 0 0"
+          ],
+          "answer": "0 1 2",
+          "explanation": "The loop prints the values of 'i' from 0 to 2."
+        },
+        {
+          "question": "What will the following code output?\n\n```java\nfor (int i = 0; i < 3; i++) {\n  System.out.println(i);\n}\n```",
+          "options": [
+            "0 1 2",
+            "1 2 3",
+            "3 2 1",
+            "Nothing"
+          ],
+          "answer": "0 1 2",
+          "explanation": "The for loop runs from 0 to 2, printing each value."
+        },
+        {
+          "question": "What is the output of the following code?\n\n```java\nint i = 5;\ndo {\n  System.out.println(i);\n  i++;\n} while (i < 5);\n```",
+          "options": [
+            "5",
+            "5 6 7",
+            "Nothing",
+            "Error"
+          ],
+          "answer": "5",
+          "explanation": "A 'do-while' loop runs at least once before checking the condition."
+        },
+        {
+          "question": "What is the difference between 'break' and 'continue' in loops?",
+          "options": [
+            "'break' stops the loop, 'continue' skips the current iteration",
+            "'break' skips the iteration, 'continue' stops the loop",
+            "Both stop the loop",
+            "Both restart the loop"
+          ],
+          "answer": "'break' stops the loop, 'continue' skips the current iteration",
+          "explanation": "'break' ends the loop completely, while 'continue' skips the current iteration."
+        },
+        {
+          "question": "Which of the following is a correct 'switch' statement syntax?",
+          "options": [
+            "switch {case (1): System.out.println(1); break;}",
+            "switch (value) {case 1: System.out.println(1); break;}",
+            "switch value (1): System.out.println(1); break;",
+            "switch case (1): System.out.println(1); break;"
+          ],
+          "answer": "switch (value) {case 1: System.out.println(1); break;}",
+          "explanation": "The correct syntax for a switch statement in Java uses 'switch (value) {case ...}'"
+        },
+        {
+          "question": "What will be the output of the following code?\n\n```java\nint x = 5;\nswitch (x) {\n  case 5: System.out.println(\"Five\");\n  case 6: System.out.println(\"Six\");\n}\n```",
+          "options": [
+            "Five",
+            "Five Six",
+            "Error",
+            "Nothing"
+          ],
+          "answer": "Five Six",
+          "explanation": "Without a 'break', the switch continues to the next case after a match."
         }
       ]
     }
